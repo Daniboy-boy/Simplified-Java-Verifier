@@ -14,9 +14,6 @@ BadBooleanConditionException.java - This class represents a syntax or logic erro
 ParenthesisException.java - This class represents an error regarding the parenthesis in the code.
 SyntaxException.java - This class represents a syntax error in the s-java code file.
 
-
-
-=============================
 Design
 =============================
 We looked at the code from the compiler's point of view. Every scope has its own "rules" - type of commands,
@@ -33,9 +30,7 @@ We implemented classes for methods and variables as an independent classes.
 
 
 
-
-=============================
-=  Implementation details   =
+Implementation details
 =============================
 We saw it as if every line has a scope it belongs to, the last scope in the call stack.
 Variables are saved in the scope they're at, and died with the scope as the scope dies
@@ -50,10 +45,7 @@ Method class contains a hashmap of its arguments and useful functions.
 Variable class contains all the characteristics of a variable.
 
 
-
-
-=============================
-=    Answers to questions   =
+Answers to questions
 =============================
 6.1 Error handling:
 
