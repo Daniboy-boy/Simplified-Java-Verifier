@@ -1,5 +1,5 @@
 =============================
-=      File description     =
+File description     
 =============================
 Sjavac.java - The oop.ex5.main class, containing the program that runs it all
 Scope.java - Class representing scope. scope have map of Variables, and can preform actions on it.
@@ -18,7 +18,7 @@ SyntaxException.java - This class represents a syntax error in the s-java code f
 
 
 =============================
-=          Design           =
+Design
 =============================
 We looked at the code from the compiler's point of view. Every scope has its own "rules" - type of commands,
 variables, inner scopes, ect.
