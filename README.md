@@ -1,4 +1,3 @@
-=============================
 File description     
 =============================
 Sjavac.java - The oop.ex5.main class, containing the program that runs it all
